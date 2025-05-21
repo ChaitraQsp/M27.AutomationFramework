@@ -46,7 +46,7 @@ public class BaseClass {
 	public void bcConfig(/* String pValue */) throws IOException {
 		String URL = fUtil.readDataFromPropertyFile("url");
 
-		driver = new EdgeDriver();
+		driver = new FirefoxDriver();
 
 		// For Cross Browser execution - "Run time Polymorphism - driver"
 //		if(pValue.equals("edge"))
