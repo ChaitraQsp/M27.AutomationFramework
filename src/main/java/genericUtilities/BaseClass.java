@@ -96,6 +96,8 @@ public class BaseClass {
 	// @AfterTest
 	@AfterClass(alwaysRun = true)
 	public void acConfig() {
+		
+		
 		driver.quit();
 
 		System.out.println("======= Browser closure succesful =======");
