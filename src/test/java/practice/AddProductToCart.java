@@ -21,6 +21,7 @@ public class AddProductToCart {
 	public static void main(String[] args) throws IOException {
 
 		// Read data from property file
+		// Read data from property file
 		FileInputStream fis = new FileInputStream(".\\src\\test\\resources\\CommonData.properties");
 		Properties p = new Properties();
 		p.load(fis);
